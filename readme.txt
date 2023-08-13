@@ -1,0 +1,4 @@
+Öncelikle bir terminalde ./server1 i çalıştırıyoruz. Daha sonra baska terminallerde istedigimiz kadar 
+client oluşturuyoruz(./client 1 x). x yerine o clientin idsini veriyoruz. Bunu int olarak tanımladım
+yani "./client 24" gibi çalıştırılması gerkiyor. Bundan sonra gelen satıra eğer mesaj alacak isek 0
+eğer göndericeksek 1 giriyoruz. Eğer mesajımız varsa gösteriyor yoksa mesajınız yok diyor. 1 basıldığında ise gönderilecek clientin isini istiyor önce, sonra da gönderilecek mesajı istiyor sırasıyla benim bilgisayarımda ram test aşamasında sürekli dolduğu için mesaja sınır getirdim.80 char olarak fakat bu arttırılabilir. Aynı zamanda yeni mail gelmesi için sırada okunmamış mail olmaması gerekicek şekilde tasarladım. 
